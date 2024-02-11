@@ -1,0 +1,32 @@
+body{
+    /* font-family: 'Protest Revolution', sans-serif;   */
+  /* font-family: 'Dancing Script', cursive; */
+  /* font-family: 'Caveat', cursive; */
+  font-family: 'Love Light', cursive;
+  box-sizing: border-box;
+  margin:0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+}
+.pulavi{
+  width:92%;
+  height: 80%;
+ text-align: center; 
+ border: 2px solid black;
+ border-radius: 10%;
+
+}
+.msg{
+    font-size:10em;
+}
+p{
+    font-size:5em;
+    color:black ;
+}
+h2{
+    font-size:7em;
+   
+}
