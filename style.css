@@ -1,0 +1,74 @@
+body{
+      /* font-family: 'Protest Revolution', sans-serif;   */
+    /* font-family: 'Dancing Script', cursive; */
+    /* font-family: 'Caveat', cursive; */
+    font-family: 'Love Light', cursive;
+    box-sizing: border-box;
+    margin:0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+div{
+        display: block;
+        width:90%;
+        height: 60%;
+       text-align: center; 
+       border: 2px solid black;
+       border-radius: 10%;
+    
+
+}
+#name{
+    width:80%;
+    height:100px;
+    text-align: center;
+    font-size:3em;
+    border:2px solid gray;
+    border-radius: 20px;
+    font-family: 'Dancing Script'; 
+    background-color:  #C6E7DB;
+
+}
+#btn{
+    border:none;
+    margin-top: 40px;
+    width:40%;
+    height:10%;
+    font-size: 3em;
+    border-radius: 40px;
+    background-color: #3EB489;
+    color:#C6E7DB;
+    font-family: 'Love Light';
+
+}
+h1{
+    font-size:10em;
+}
+p{
+    font-size:5em;
+    color:black ;
+}
+#pulavi{
+    display: none;
+    width:92%;
+    height: 80%;
+   text-align: center; 
+   border: 2px solid black;
+   border-radius: 10%;
+  
+  }
+  .msg{
+      font-size:10em;
+  }
+  p{
+      font-size:5em;
+      color:black ;
+  }
+  h2{
+      font-size:7em;
+     
+  }
+  
