@@ -24,11 +24,11 @@
 </div>
 
 
- <div id="pulavi">
+ <!-- <div id="pulavi">
     <h1 class="msg">My Pulavi,</h1>
     <p> I promise to stand by you and love you unconditionally. Even if the whole world falls apart, I will be right by your side and it is a promise. I love you.</p>
     <h2>I Love You My alagu Kunjeee...!</h2>
-</div> 
+</div>  -->
 
 
 
@@ -37,20 +37,25 @@
 var btn = doucument.getElementById("btn")
 
 function love(){
-    var pulavi =document.getElementById("pulavi")
+    // var pulavi =document.getElementById("pulavi")
     var main =document.getElementById("main")
     var name = document.getElementById("name").value
    
 
    if(name == 'pulavi'){
-     main.style.display="none"
-     pulavi.style.display="block"
-   } 
+    
+    window.location.assign("msg.html")
+
+
+
+//      main.style.display="none"
+//      pulavi.style.display="block"
+//    } 
  
-else{
-    main.style.display="block"
-     pulavi.style.display="none"
-}
+// else{
+//     main.style.display="block"
+//      pulavi.style.display="none"
+ }
 }
 
 </script>
